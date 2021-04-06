@@ -1,0 +1,131 @@
+@import url("http://fonts.googleapis.com/css?family=Pacifico");
+@import url("http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic");
+*{
+	padding:0;
+	margin:0;
+}
+
+.buttons-inline{
+	display:inline-block;
+}
+.findMe{
+	color:#fff;
+	margin-top:20px;
+}
+.findMe a{
+	color:#fff;
+	text-decoration: underline;
+}
+.findMe a:hover{
+	color:#ccc;
+	text-decoration: none;
+}
+
+.greyBackground{
+	background-color:#f3f3f3;
+	margin-top:20px;
+	padding-bottom:30px;
+}
+.padded{
+	margin-bottom: 0px;
+padding-bottom: 0px;
+margin-top: 5px;
+}
+.repeat{
+
+	width: 80px;
+	height: 40px;
+	margin:auto;
+	background:#1a8ec9;
+}
+
+
+
+.blog_content a{
+	text-decoration: underline;
+}
+
+
+
+.btn {
+display: inline-block;
+padding: 6px 12px;
+margin-bottom: 0;
+font-size: 14px;
+font-weight: normal;
+line-height: 1.42857143;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+cursor: pointer;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+background-image: none;
+border: 1px solid transparent;
+border-radius: 4px;
+}
+.btn-primary {
+color: #fff;
+background-color: #428bca;
+border-color: #357ebd;
+}
+.btn {
+border-radius: 0;
+border: none;
+font-size: 16px;
+font-weight: normal;
+padding: 12px 24px;
+line-height: 24px;
+font-family: 'Open Sans', arial, sans-serif;
+-webkit-transition: all 0.4s ease-in-out;
+-moz-transition: all 0.4s ease-in-out;
+-o-transition: all 0.4s ease-in-out;
+text-decoration: none;
+}
+
+.btn-primary {
+	background-color: #d9534f;
+}
+.btn-primary:hover{
+	background-color:#d2322d;
+}
+.highlighter{
+	margin-bottom:-15px;
+	background-color:rgba(9,255,0, 0.6);
+
+}
+
+/***********
+* rotateIn *
+************/
+
+@-webkit-keyframes rotateIn { 
+    0% { 
+        -webkit-transform-origin: center center; 
+        -webkit-transform: rotate(-200deg); 
+        opacity: 0; 
+    } 
+    100% { 
+        -webkit-transform-origin: center center; 
+        -webkit-transform: rotate(0); 
+        opacity: 1; 
+    } 
+} 
+@keyframes rotateIn { 
+    0% { 
+        transform-origin: center center; 
+        transform: rotate(-200deg); 
+        opacity: 0; 
+    } 
+    100% { 
+        transform-origin: center center; 
+        transform: rotate(0); 
+        opacity: 1; 
+    } 
+} 
+.rotateIn.go { 
+    -webkit-animation-name: rotateIn; 
+    animation-name: rotateIn; 
+}

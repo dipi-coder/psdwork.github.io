@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400&family=Oswald:wght@300&family=PT+Sans+Narrow&display=swap');
+
+*{
+	margin-top: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+font-family: 'Lexend', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'PT Sans Narrow', sans-serif;
+}
+::selection{background: blue;
+	        color: white;}
+
+body{font-size: 1.3rem;
+text-align: center;}
+
+h1 {font-family: 'Balsamiq Sans', cursive;}
+
+
+.navbar-nav{
+	font-size: 1rem;}
+   
+.toplink a{color: #fff !important;}
+
+.toplink .fa{font-size:23px !important;
+	        margin-top: 8px;
+            margin-right: 5px;}
+
+ ul {
+    margin-right: -12px;
+  }
+  .imageanimate img{
+  width: 100%;
+   height: auto; 
+ }
+
+ .d-flex{
+  flex-wrap: wrap;
+}
+ 
+ .d-flex div{
+  margin-top: 2%;
+	        padding: 10px;
+        }
+
+ .d-flex .flexthree{
+  border:10px  solid #f8f9fa;
+}
+     .flexthree{ 
+      
+                background: #f4f2ee;
+              }
+     
+   .icon a{
+    padding: 15px;
+  }
+
+section p{
+  text-align: justify;
+}
+
+.cartheight .card-title{
+  height: 60px;
+}
+.card-text{
+  height: 150px;
+}
+.card{ 
+  box-shadow: 10px 10px 5px grey;
+}
+.approach{
+  color: red;
+}
+.arrowdirection i{justify-content: flex-end;
+                 display: flex;
+                   margin: 40px;}
+
+
+/*media start*/
+@media only screen and (max-width: 600px) 
+{
+.cartheight .card-title{
+  height: initial !important;
+}
+.card-text{
+  height:initial!important;
+}
+.flexthree {
+  width:100% !important;
+} 
+.nav{
+      flex-direction: column !important;}
+      .arrowdirection i{justify-content: flex-end !important;
+                 display: flex !important;
+                   margin: 40px !important;
+                 }
+               
+
+
+}
